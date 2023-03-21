@@ -37,13 +37,13 @@ const MultipleReturnsFetchuser = () => {
   if(isError){
     return <h2>There was en error...</h2>
   }
-
+  const {avatar_url, login, company} = user
   return (
     <>
       <h2>Fetched user</h2>
-      <img src={user.avatar_url} alt="" width={"100px"} />
-      <h4>{user.login} </h4>
-      <p>Works at{user.company}</p>
+      <img src={avatar_url} alt="" width={"100px"} />
+      <h4>{login} </h4>
+      <p>Works at{company}</p>
     
     </>
   )
