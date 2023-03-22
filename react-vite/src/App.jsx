@@ -1,5 +1,5 @@
-import Starter from './tutorial/03-conditional-rendering/starter/02-multiple-returns-fetch-data.jsx'
-import Final from "./tutorial/03-conditional-rendering/final/02-multiple-returns-fetch-data.jsx";
+import Starter from "./tutorial/03-conditional-rendering/starter/05-short-circuit-examples";
+import Final from "./tutorial/03-conditional-rendering/final/05-short-circuit-examples";
 
 function App() {
   return (
