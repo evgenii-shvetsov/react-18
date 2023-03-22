@@ -1,5 +1,6 @@
+import avatar from '../../../assets/default-avatar.svg'
 const Person = ({ name, nickName = "shakeAndBake", images }) => {
-  const img = images?.[0].small.url
+  const img = images?.[0]?.small?.url || avatar
   return (
     <>
       <div>
