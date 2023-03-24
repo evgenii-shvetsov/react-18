@@ -1,5 +1,5 @@
-import Starter from './tutorial/06-forms/starter/02-user-challenge'
-import Final from "./tutorial/06-forms/final/02-user-challenge";
+import Starter from './tutorial/06-forms/starter/03-multiple-inputs'
+import Final from "./tutorial/06-forms/final/03-multiple-inputs";
 
 function App() {
   return (
