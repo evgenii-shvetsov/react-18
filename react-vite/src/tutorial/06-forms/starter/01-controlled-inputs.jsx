@@ -8,11 +8,15 @@ const ControlledInputs = () => {
   //   // console.log(e.target.name);
   //   setName(e.target.value);
   // }
+  const handleSubmit = (e)=>{
+    e.preventDefault()
+    console.log(name);
+    console.log(email);
+  }
 
-console.log(name)
-console.log(email);
+
   return (
-    <form className="form">
+    <form className="form" onSubmit={handleSubmit}>
       <h4>Controlled Inputs</h4>
 
       <div className="form-row">
